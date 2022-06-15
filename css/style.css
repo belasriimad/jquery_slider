@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background: #34495e;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #FFF;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 635px;
+    margin: 100px auto 0 auto;
+    position: relative;
+}
+
+.imageSlider {
+    height: 332px;
+}
+
+.imageSlider img {
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+
+#nav {
+    list-style-type: none;
+    z-index: 150;
+}
+
+#nav li a {
+    display: block;
+    width: 58px;
+    height: 102px;
+    text-indent: -9999px;
+    outline: none;
+}
+
+#prev a {
+    background: url(../img/prev_image.png);
+    width: 58px;
+    height: 102px;
+    position: absolute;
+    top: 240px;
+    left: -70px;
+}
+
+#next a {
+    background: url(../img/next_image.png);
+    width: 58px;
+    height: 102px;
+    position: absolute;
+    top: 240px;
+    right: -110px;
+}
+
+#next a:hover {
+    background: url(../img/next_h.png);
+}
+
+#prev a:hover {
+    background: url(../img/prev_h.png);
+}
